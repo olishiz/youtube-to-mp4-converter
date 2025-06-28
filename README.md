@@ -18,25 +18,17 @@ A simple Python script to download all videos from a YouTube playlist (or single
 ## Installation
 1. Clone this repository:
    ```sh
-git clone https://github.com/olishiz/youtube-to-mp4-converter.git
-cd youtube-to-mp4-converter
-```
+   git clone https://github.com/olishiz/youtube-to-mp4-converter.git
+   cd youtube-to-mp4-converter
+   ```
 2. Install yt-dlp:
    ```sh
-pip install yt-dlp
-```
+   pip install yt-dlp
+   ```
 
 ## Usage
 Run the script from the command line:
 
-- **Download default playlist:**
-  ```sh
-  python youtube_playlist_downloader.py --use-default
-  ```
-- **Download default single video:**
-  ```sh
-  python youtube_playlist_downloader.py --single-video
-  ```
 - **Download from a specific URL:**
   ```sh
   python youtube_playlist_downloader.py --url "https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID"
@@ -44,10 +36,6 @@ Run the script from the command line:
   or
   ```sh
   python youtube_playlist_downloader.py --url "https://www.youtube.com/watch?v=VIDEO_ID"
-  ```
-- **Interactive mode:**
-  ```sh
-  python youtube_playlist_downloader.py
   ```
 
 ## Output
